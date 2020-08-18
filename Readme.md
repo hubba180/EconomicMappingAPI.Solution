@@ -4,10 +4,10 @@
 </strong></h1>
 ![colorful-graph](https://media.giphy.com/media/3o6Ztah2Jo4BQReDIs/giphy.gif)
 
-#### A practice in creating APIs within C# & .Net through the mapping of economic outputs for each state._ , 2020 ver 1.0_
+#### A practice in creating APIs within C# & .Net through the mapping of economic outputs for each state._ , 2020 ver 1.0.0_
 
 #### By _Ian Gregg & Kyle Hubbard & Ben Russell_
-[]()
+[Economic-API](https://github.com/oldgregg89/EconomicMappingAPI.Solution)
 
 ## Description
 
@@ -30,11 +30,15 @@ in the terminal
 * in `appsetting.json` add: 
 ```
 {
-  
-    "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=your port number;database=your database;uid=root;pwd=password;"
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
     }
-
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=(port#);database=(DB name);uid=root;pwd=(password);"
+  }
 }
 ```
 * fill in your `server`, `port`,`database`,`uid`, and `pwd`
@@ -66,7 +70,7 @@ Kyle Hubbard <kyle.james.hubbard@gmail.com>_
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac, C#, .Net, Authentication with Identity_
+_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac, C#, .Net, Authentication with Identity, MySQL, Swagger for Documentation_
 
 ### License
 
